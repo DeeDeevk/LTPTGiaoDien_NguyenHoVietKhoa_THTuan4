@@ -8,26 +8,32 @@ export default function PhanDau() {
     return (
         <div className="container_full top">
             <div className="container">
-                <div>
-
-                    <img src={logo} alt="logo" className="logo" />
+                <div className="logoAndSearch">
+                    <div>
+                        <img src={logo} alt="logo" className="logo" />
+                    </div>
+                    <div>
+                        <input type="text" placeholder="Search" className="timKiem" />
+                    </div>
                 </div>
-                <div>
-                    <input type="text" placeholder="Search" className="timKiem" /></div>
-                <ul className="menu">
-                    {menus.map((item, index) => {
-                        return (
-                            <li key={index}>
-                                <a href="">{item}</a>
-                            </li>
-                        )
-                    })}
-                </ul>
-                <div>
-                    <button className="yrb">You Recipe Box</button>
+                <div className="phanGiua">
+                    <ul className="menu">
+                        {menus.map((item, index) => {
+                            return (
+                                <li key={index}>
+                                    <a href="">{item}</a>
+                                </li>
+                            )
+                        })}
+                    </ul>
                 </div>
-                <div>
-                    <img src={avt} alt="avatar" className="avt" />
+                <div className="phanCuoi">
+                    <div>
+                        <button className="yrb">You Recipe Box</button>
+                    </div>
+                    <div>
+                        <img src={avt} alt="avatar" className="avt" />
+                    </div>
                 </div>
             </div>
         </div>

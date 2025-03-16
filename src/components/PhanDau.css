@@ -3,35 +3,42 @@
 }
 
 .top{
-    width: 1800px;
+    width: 100%;
     background-color: white;
     min-height: 60px;
     border-bottom: #f3f3f3 solid;
 }
 
+
 .container{
     display: flex;
     flex-wrap: nowrap;
 }
-
+/* 
 .container > div{
     width: 100px;
     text-align: center;
     line-height: 60px;
     font-size: 30px;
+} */
+
+.logoAndSearch{
+    width: 40%;
+    min-height: 60px;
+    display: flex;
 }
 
 .logo{
     width: 150px;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 .timKiem{
-    margin-left: 100px;
     width: 350px;
     height: 40px;
     border-radius: 10px;
     margin-top: 10px;
+    margin-left: 20px;
     border: hidden;
     background-color: #f3f3f3;
     text-indent: 20px;
@@ -39,9 +46,14 @@
     font-size: 15px;
 }
 
+.phanGiua{
+    width: 40%;
+    display: flex;
+    min-height: 60px;
+}
+
 .menu{
-    margin-left: 350px;
-    margin-top: 30px;
+    margin-top: 25px;
     display: flex;
     gap: 20px;
 }
@@ -50,8 +62,6 @@
     list-style: none;
 }
 .menu > li > a{
-    margin-right: 0px;
-    margin-left: 20px;
     text-align: center;
     line-height: 15px;
     font-size: 20px;
@@ -63,11 +73,16 @@
     text-decoration: underline;
 }
 
+.phanCuoi{
+    width: 20%;
+    display: flex;
+    min-height: 60px;
+}
+
 .yrb{
     width: 200px;
     height: 50px;
-    margin-top: 12px;
-    margin-left: 30px;
+    margin-top: 5px;
     border-radius: 10px;
     border: hidden;
     background-color: #feeff5;
@@ -76,9 +91,9 @@
 }
 
 .avt{
-    margin-top: 12px;
+    margin-top: 6px;
     height: 50px;
     width: 50px;
-    margin-left: 150px;
+    margin-left: 50px;
     border-radius: 100px;
 }

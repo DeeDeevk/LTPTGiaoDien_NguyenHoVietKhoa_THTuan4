@@ -1,4 +1,3 @@
-import { useEffect, useState } from 'react'
 import './App.css';
 import PhanDau from './components/PhanDau.jsx'
 import PhanGiua from './components/PhanGiua.jsx';

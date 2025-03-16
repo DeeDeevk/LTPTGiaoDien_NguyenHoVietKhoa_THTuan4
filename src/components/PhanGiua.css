@@ -2,17 +2,79 @@
     width: 100%;
 }
 .content{
+    width: 80%;
     min-height: 800px;
-    flex-wrap: nowrap;
+    flex-wrap: nowrap; 
+    margin: auto;
 }
 
 .tren{
     width: 100%;
-    height: 300px;
-    background-color: aqua;
+    height: 250px;
+    display: flex;
+    margin: auto;
 }
 .duoi{
     width: 100%;
-    height: 500px;
-    background-color: saddlebrown;
+    min-height: 550px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.content > h1{
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.benPhai{
+    height: 250px;
+    width: 20%;
+}
+
+.benPhai > img{
+    width: 70%;
+    margin-left: 40px;
+}
+
+.benTrai{
+    height: 250px;
+    width: 80%;
+}
+
+.traiTren{
+    width: 100%;
+    height: 65%;
+}
+
+.traiTren > span{
+    font-family: sans-serif;
+    font-size: 22px;
+    color: rgb(128, 128, 128);
+}
+
+.traiDuoi{
+    width: 100%;
+    height: 35%;
+}
+
+.sub{
+    margin-right: 30px;
+    font-size: 20px;
+    padding: 10px;
+    font-family: sans-serif;
+    color: rgb(242, 74, 134);
+    background-color: white;
+    border: none;
+}
+
+.share{
+    margin-right: 30px;
+    font-size: 20px;
+    padding: 10px;
+    font-family: sans-serif;
+    color: white;
+    background-color: rgb(242, 74, 134);
+    border-radius: 10px;
+    border: none;
 }
